@@ -11,13 +11,14 @@
   <title>Hello World!!</title>
   <!--define o titulo do site-->
   <link rel="stylesheet" href="css/style.css" />
+  <!--define o arquivo de estilos(CSS)-->
 </head>
 <!--fim do cabecalho-->
 
 <body>
   <!--corpo do site-->
   <header>
-    <img src="img/gumball.jpg" alt="Fantastico mundo de Gumball">
+    <img src="img/gumball.jpg" alt="Fantastico mundo de Gumball" class="avatar_profile">
     <!--imagem do cabecalho-->
     <h1 id="title"> Nicolas Loback</h1>
     <!--texto principal Titulo-->
@@ -28,15 +29,16 @@
       <h2 class="subtitle">Post</h2>
       <!--texto secundario post -->
     </header>
-    <article>
-      <!--artigo do site ou da materia-->
+    <article class="post">
+      <!--artigo do site ou da materia usando para dar enfase a algo importante-->
       <header>
         <h3 class="post_title">Post #1</h3>
-        <img src="img/html-code.jfif" alt="HTML Code">
+        <img src="img/header_02.jpg" alt="HTML Code" class="post_image">
         <!--imagem do artigo-->
         <!--nome da suposta materia -->
       </header>
-      <p>
+      <p class="post_content">
+        <!--conteudo da materia -->
         Coroada como regente dos escoceses seis dias após seu nascimento, ela foi comprometida com o <a
           href="mailto:nicolasloback@gmail.com" target="_blank">príncipe inglês</a>
         <!---link para o email do autor-->
@@ -54,7 +56,7 @@
   <!--fim da secao-->
   <footer>
     <!--rodape do site-->
-    <ul>
+    <ul class="contact_list">
       <!--lista de links ul ordem nao e importante ficam com pontos ao lado de cada iten, no caso da ol ordem e importante e fica numerado 1,2,3-->
       <li>
         <!--itens da lista do ul ou ol-->
